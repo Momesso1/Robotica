@@ -1,3 +1,7 @@
+Grupo: Lucas Momesso Alves, João Matheus Nascimento Dias, Jackson Bruno Lima Leão.
+
+A documentação está em /welding_package/docs_output/html/index.html. Só "puxar" o index para o navegador.
+
 Foram feitas as simulações de solda em múltiplos objetos no Isaac Sim e considerando uma trajetória escolhida (linha ou círculo)
 
 ## 📌 Tabela DH do Denso VM-6083 (Clássica)
