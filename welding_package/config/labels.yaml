@@ -1,0 +1,11 @@
+authorized_labels:
+  - firecabinet_
+  - box
+  - trashcan
+  - case_
+  - eletricheater_
+  - drum_
+  - cardbox_
+
+unauthorized_labels:
+  - camera

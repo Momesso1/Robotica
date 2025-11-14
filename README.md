@@ -1,6 +1,21 @@
-Só executar esses 2 comandos no terminal do Ubuntu 24.04 com ROS2 Jazzy (1 em cada terminal).
+Foram feitas as simulações de solda em múltiplos objetos no Isaac Sim e considerando uma trajetória escolhida (linha ou círculo)
 
-ros2 launch denso_robot_bringup denso_robot_bringup.launch.py sim_gazebo:=true robot_controller:=trajectory_controller
+## 📌 Tabela DH do Denso VM-6083 (Clássica)
 
-ros2 launch denso_robot_moveit_config denso_robot_moveit.launch.py use_sim_time:=true
+| i | aᵢ (m) | αᵢ (rad) | dᵢ (m) | θᵢ |
+|---:|:------:|:---------:|:-------:|:---:|
+| 1 | 0.000 | +π/2 | 0.180 | θ₁ |
+| 2 | 0.385 | 0 | 0.000 | θ₂ |
+| 3 | 0.445 | 0 | 0.000 | θ₃ |
+| 4 | 0.000 | +π/2 | 0.100 | θ₄ |
+| 5 | 0.000 | −π/2 | 0.000 | θ₅ |
+| 6 | 0.000 | 0 | 0.000 | θ₆ |
 
+
+Usamos o  data sheet do Denso VM-6083
+
+[Screencast from 2025-10-16 20-08-32.webm](https://github.com/user-attachments/assets/cbc69ac6-e3b1-4ea9-bbba-bb858e1ec8ea)
+
+[Screencast from 2025-10-24 02-48-27.webm](https://github.com/user-attachments/assets/b6388b99-37d0-4332-9d0a-168e0970d379)
+
+[Screencast from 2025-10-24 02-51-23.webm](https://github.com/user-attachments/assets/45ef2fe4-c0fc-476d-8c08-fe3e37bf3652)
