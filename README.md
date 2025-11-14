@@ -1,4 +1,4 @@
-Grupo: Lucas Momesso Alves, João Matheus Nascimento Dias, Jackson Bruno Lima Leão.
+# Grupo: Lucas Momesso Alves, João Matheus Nascimento Dias, Jackson Bruno Lima Leão.
 
 A documentação está em /welding_package/docs_output/html/index.html. Só "puxar" o index para o navegador.
 
